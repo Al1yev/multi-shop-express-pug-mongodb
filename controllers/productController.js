@@ -10,7 +10,6 @@ const getOneProduct = (req, res, next) => {
 };
 
 const createProduct = (req, res, next) => {
-  console.log(req.body);
   return handlerController.add(req, res, next, Product);
 };
 
